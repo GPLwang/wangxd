@@ -7,8 +7,6 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/css/reset.css'
 import Myaxios from '@/assets/js/myaxios.js'
-import Bread from '@/layout/bread.vue'
-Vue.component(Bread.name,Bread)
 Vue.use(ElementUI)
 Vue.use(Myaxios)
 Vue.config.productionTip = false
