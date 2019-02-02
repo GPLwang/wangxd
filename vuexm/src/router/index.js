@@ -15,6 +15,7 @@ export default new Router({
   routes: [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
       path: '/',
       name: 'HelloWorld',
@@ -28,6 +29,8 @@ export default new Router({
   ]
 })
 =======
+=======
+>>>>>>> parent of ab380488... home
     { path: '/', redirect: '/home' },
     { name: 'login', path: '/login', component: Login },
     { name:'home',path:'/home',component:Home }
