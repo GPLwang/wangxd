@@ -14,11 +14,17 @@ Vue.use(Router)
 export default new Router({
   routes: [
 <<<<<<< HEAD
+<<<<<<< HEAD
     {
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
     }
+=======
+    { path: '/', redirect: '/home' },
+    { name: 'login', path: '/login', component: Login },
+    { name:'home',path:'/home',component:Home }
+>>>>>>> parent of ab38048... home
   ]
 })
 =======
