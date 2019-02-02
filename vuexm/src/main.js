@@ -3,16 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-<<<<<<< HEAD
 
-=======
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-import '@/assets/css/reset.css'
-import Myaxios from '@/assets/js/myaxios.js'
-Vue.use(ElementUI)
-Vue.use(Myaxios)
->>>>>>> parent of ab38048... home
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
