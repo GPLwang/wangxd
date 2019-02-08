@@ -13,6 +13,8 @@ import 'quill/dist/quill.core.css'
 import 'quill/dist/quill.snow.css'
 import 'quill/dist/quill.bubble.css'
 import ElTreeGrid from 'element-tree-grid'
+import Echarts from 'echarts'
+
 Vue.component(Bread.name,Bread)
 Vue.use(ElementUI)
 Vue.use(Myaxios)
@@ -20,7 +22,7 @@ Vue.use(require('vue-moment'))
 Vue.use(VueQuillEditor)
 Vue.component(ElTreeGrid.name, ElTreeGrid)
 
-
+Vue.prototype.$echarts = Echarts
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

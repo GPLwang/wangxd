@@ -9,6 +9,7 @@ import Goods from '@/components/page/goods/goods.vue'
 import Categories from '@/components/page/goods/categories.vue'
 import AddGoods from '@/components/page/goods/addgoods.vue'
 import Orders from '@/components/page/orders/orders.vue'
+import Reports from '@/components/page/reports/reports.vue'
 import { Message } from 'element-ui'
 Vue.use(Router)
 
@@ -26,6 +27,7 @@ var router = new Router({
         { path: '/roles', component: Roles },
         { path: '/rights', component: Rights },
         { path: '/orders', component: Orders },
+        { path: '/reports', component: Reports },
       ]
     }
   ]
