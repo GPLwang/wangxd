@@ -1,4 +1,5 @@
 .DS_Store
+node_modules/vuexm/
 node_modules/
 /dist/
 npm-debug.log*
