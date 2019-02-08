@@ -18,10 +18,12 @@ var router = new Router({
     {
       name: 'home', path: '/home', component: Home,
       children: [
-        { path:'/users',component:Users },
-        { path:'/goods',component:Goods },
-        { path:'/goods/add',component:AddGoods },
-        { path:'/categories',component:Categories },
+        { path: '/users', component: Users },
+        { path: '/goods', component: Goods },
+        { path: '/goods/add', component: AddGoods },
+        { path: '/categories', component: Categories },
+        { name: 'roles', path: '/roles', component: Roles },
+        { name: 'rights', path: '/rights', component: Rights },
       ]
     }
   ]
