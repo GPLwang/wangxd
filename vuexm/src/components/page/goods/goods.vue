@@ -1,6 +1,6 @@
 <template>
   <el-card>
-    <Mybread firstnav="商品管理" lastnav="商品列表"/>
+    <Mbread first="商品管理" last="商品列表"/>
     <el-row style="margin-top: 15px;">
       <el-col :span="6">
         <el-input placeholder="请输入内容" v-model="goodsSearch" class="input-with-select">
